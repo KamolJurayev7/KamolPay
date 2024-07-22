@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+}
+
+.bg-black-gradient {
+    background: linear-gradient(to top, #fff -278%, #6d6d6d -78%, #11101d 100%);
+}
+
+.bg-discount-gradient {
+    background: linear-gradient(130deg, #fff -278%, #272727 0%, #11101d 100%);
+}
+
+.text_gradient {
+    background: radial-gradient(
+            64.18% 64.18% to 71.16% 35.69%,
+            #def9fa 0.89%,
+            #bef3f5 17.23%,
+            #9dedf0 42.04%,
+            #7de7eb 55.12%,
+            #5ce1e6 71.54%,
+            #33bbcf 100%,
+        );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.blue_gradient{
+    background: linear-gradient(180deg, rgba(188, 165,255,0) 0%, #214d76 100%);
+    filter: blur(123px);
+}
+.pink_gradient{
+    background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+    filter: blur(900px);
+}
+.white_gradient{
+    background:  rgba(188, 165,255,0.6);
+    filter: blur(750px);
+}
+
+.bg_blue_gradient{
+    background: linear-gradient(
+        157.81deg,
+        #def9fa 0.89%,
+        #bef3f5 17.23%,
+        #9dedf0 42.04%,
+        #7de7eb 55.12%,
+        #5ce1e6 71.54%,
+        #33bbcf 100%,
+    );
+}
