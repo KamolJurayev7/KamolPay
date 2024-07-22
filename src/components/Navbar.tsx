@@ -35,7 +35,7 @@ const Navbar = () => {
 
                 <div className={`${!isMenu ? 'hidden ' : 'flex'} p-6 bg-black-gradient absolute z-20 top-20 right-0 left-0 my-2 w-full `}>
                     <ul className='list-none flex flex-col justify-center items-center flex-1'>
-                        {navigationLinks.map((nav, idx) => (
+                        {navigationLinks.map((nav) => (
                             <li
                                 key={nav.id}
                                 className={
